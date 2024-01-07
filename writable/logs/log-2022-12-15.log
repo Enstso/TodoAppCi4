@@ -1,0 +1,284 @@
+CRITICAL - 2022-12-15 08:39:49 --> Undefined property: stdClass::$done
+in APPPATH/Views/Task-index.php on line 20.
+ 1 APPPATH/Views/Task-index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Task-index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 08:43:25 --> Undefined property: stdClass::$done
+in APPPATH/Views/Task-index.php on line 20.
+ 1 APPPATH/Views/Task-index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Task-index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 09:16:57 --> Undefined property: stdClass::$done
+in APPPATH/Views/Task-index.php on line 20.
+ 1 APPPATH/Views/Task-index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Task-index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+INFO - 2022-12-15 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 10:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-12-15 11:01:57 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:03:32 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:03:33 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:06:12 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:06:14 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:07:38 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:07:40 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:08:25 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:08:42 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:10:36 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:10:38 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:21:50 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:22:08 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:42:03 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:42:03 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:42:05 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:42:06 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:44:39 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:28 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:29 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:30 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:30 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:30 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 11:47:31 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:04:14 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:04:19 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:04:21 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:12:17 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:12:18 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:14:06 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:18:07 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:18:08 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:50:19 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-15 12:50:52 --> Object of class App\Models\TaskModel could not be converted to string
+in APPPATH/Controllers/TaskController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+INFO - 2022-12-15 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 12:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
