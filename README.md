@@ -1,8 +1,8 @@
 # Todo-list
 
-## Prérequis obligatoire :
+## Mandatory Prerequisites :
 
-Installer la version version 7.4 ou une version supérieure de PHP et les extensions suivantes sont :
+Install PHP version 7.4 or higher and ensure the following extensions are installed :
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [libcurl](http://php.net/manual/en/curl.requirements.php) 
@@ -11,76 +11,74 @@ Installer la version version 7.4 ou une version supérieure de PHP et les extens
 - [mysqli](https://www.php.net/manual/fr/mysqli.setup.php)
 
 
-## Contexte :
+## Context :
 
-Pour m'approprier le framework Code Igniter 4, j'ai fais pour premier projet Todo-list qui permet de lister des tâches à faire.
+To familiarize myself with the CodeIgniter 4 framework, I created a first project called "Todo-list," which allows listing tasks to do.
 
-Codeigniter4 est un framework PHP qui suit l' architecture MVC (Model View Controller) :
+CodeIgniter 4 is a PHP framework that follows the MVC (Model-View-Controller) architecture :
 
-- Model : les classes métiers.
-- View : pages html.
-- Controller: méthodes du projets (évènements du projet).
-- Dao : les classes d'accès à la base de données.
+- Model : Business logic classes.
+- View : HTML pages.
+- Controller: Project methods (event handlers).
+- Dao : Classes for database access.
 
 
-
-Schéma du MVC :
+MVC Diagram :
 
 !['img/MVC.png'](img/MVC.png)
 
-### Cas d'utilisation :
+### Use Case :
 
 !['img/f2.png'](img/f15.png)
 
-page index :
+index page :
 
 !['img/f1.png'](img/f1.PNG)
 
-Nous avons la possibilité de réordonner les tâches en cliquant sur le bouton suivant :
+Users can reorder tasks by clicking the following button :
 
 !['img/f2.png'](img/f2.PNG)
 
-Page pour modifier l'ordre des tâches (les tâches s'affichent dans l'odre croissant):
+Page to Modify Task Order (Tasks are displayed in ascending order) :
 
 !['img/f3.png'](img/f3.PNG)
 
-je modifie la position de la tâche éteindre le pc et l'échange avec celle dee Ranger :
+Here, the position of the task "éteindre le pc" is swapped with the task "Ranger" :
 
 !['img/f4.png'](img/f4.PNG)
 
-Résultat :
+Result :
 
 !['img/f5.png'](img/f5.PNG)
 
-Pour ajouter une nouvelle tâche je clique sur le bouton suivant :
+Adding a New Task Click on the following button :
 
 !['img/f10.png'](img/f10.PNG)
 
-Formulaire  pour ajouter la tâche :
+Fill out the form to add the task :
 
 !['img/f7.png'](img/f7.PNG)
 
 !['img/f8.png'](img/f8.PNG)
 
-la nouvelle tâche a bien été ajouté, pour la modifier je clique sur le bouton gris :
+The new task is successfully added. To edit it, click the gray button :
 
 !['img/f9.png'](img/f9.PNG)
 
-Formulaire de modification :
+Edit Form :
 
 !['img/11.png'](img/f11.PNG)
 
-la tâche a bein été modifiée.
-
+The task is successfully updated.
 
 
 !['img/f12.png'](img/f12.PNG)
 
-Pour indiquer que la tâche a bien été effectuée, je clique sur le bouton  bleu :
+Marking a Task as Completed, Click on the blue button :
 
 !['img/f13.png'](img/f13.PNG)
 
-Pour supprimer la tâche qui été faîte j'ai cliqué sur le bouton rouge :
+Deleting a Completed Task Click on the red button :
 
 !['img/f14.png'](img/f14.PNG)
 
